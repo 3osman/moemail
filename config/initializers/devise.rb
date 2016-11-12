@@ -243,7 +243,12 @@ Devise.setup do |config|
 
   # The default HTTP method used to sign out a resource. Default is :delete.
   config.sign_out_via = :delete
-
+  config.omniauth :google_oauth2, ENV['google_client_id'],  
+  ENV['google_client_secret'],
+  { access_type: "offline", 
+    prompt: "consent",
+    select_account: true,
+    scope: 'userinfo.email,calendar' }
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
