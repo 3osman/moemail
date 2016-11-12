@@ -1,0 +1,24 @@
+
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: moemail_development
+  pool: 5
+  username: postgres
+  password: apassword
+
+test: &TEST
+  adapter: postgresql
+  encoding: utf8
+  database: moemail_test
+  pool: 5
+  username: postgres
+  password: apassword
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: moemail_production
+  pool: 5
+  username: postgres
+  password: apassword
