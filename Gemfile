@@ -7,6 +7,7 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+gem 'bootstrap-sass'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -17,6 +18,7 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 gem 'devise'
 gem 'omniauth-google-oauth2'
+gem 'google-api-client', '0.8.2'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

@@ -1,0 +1,86 @@
+// Place all the styles related to the emails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  text-align: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 98%;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+}
+
+.centered-pills { 
+  text-align:center;
+  ul.nav-pills { 
+    display:inline-block;
+    li.active a{
+      background-color:#E85C40;
+      &:hover{
+        color: #fff;
+        background-color: #FF5C40;
+        
+      }
+    } 
+    
+  }
+  li {
+    display:inline;
+  }
+  a {
+    float:left;
+    color:black;
+  } 
+
+}
+.btn-danger{
+  background-color:#E85C40;
+  border-color:#E85C40;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 4px 5px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  &:hover{
+    color: #fff;
+    background-color: #FF5C40;
+    border-color: #FF5C40;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 8px 8px rgba(0, 0, 0, 0.22);
+  }
+}
+
+.navbar{
+  background-color:#E85C40;
+  min-height:70px;
+  .navbar-brand{
+    
+    padding-top: 25px; padding-bottom: 25px;
+    
+    color: #fff;
+  }
+  .navbar-nav{ 
+    li{
+      padding-top: 25px; padding-bottom: 25px;
+      margin:0px;
+      margin-right:5px;
+      margin-left:5px;
+    }
+    a{
+      padding-top: 10px; padding-bottom: 10px;
+      margin:15px;
+    } 
+  }
+  .navbar-text{
+    color: #fff;
+  }
+}

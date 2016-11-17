@@ -1,2 +1,4 @@
-<h1>Direct#new</h1>
-<p>Find me in app/views/direct/new.html.erb</p>
+<% if user_signed_in? %>
+<h1>Welcome <%= current_user.name.split(" ")[0] %>!</h1>
+  <%= link_to('View Emails', emails_view_url, class: 'btn btn-primary')%>
+<% end %>
