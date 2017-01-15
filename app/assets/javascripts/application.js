@@ -16,9 +16,3 @@
 //= require bootstrap-sprockets
 //= require masonry/jquery.masonry
 //= require_tree .
-
-
-$('.grid').masonry({
-  itemSelector: '.grid-item',
-  columnWidth: 160
-});
